@@ -1,0 +1,31 @@
+{
+  "name": "generator-model",
+  "version": "0.0.0",
+  "description": "Yeoman generator for new mongoose model",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "cdbajorin/generator-model",
+  "author": {
+    "name": "Chris Bajorin",
+    "email": "",
+    "url": "https://github.com/cdbajorin"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "generators/app"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "mongoose"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.19.0",
+    "chalk": "^1.0.0",
+    "yosay": "^1.0.2"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
